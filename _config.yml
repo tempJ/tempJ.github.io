@@ -2,7 +2,8 @@ title: JH coding
 description: 
 author: Joohyun Jo
 github: https://github.com/tempJ
-about: ...
+encoding: UTF-8
+about: temphi20@gmail.com
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -15,14 +16,6 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
     - icon: fa-github
       link: "https://github.com/tempJ"
 
@@ -31,12 +24,8 @@ share:
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Log
+      url: /category/log
 
 url: "https://tempj.github.io"
 baseurl: ""
