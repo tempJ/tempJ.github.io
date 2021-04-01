@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[JS] promise/async/await"
+title: "promise/async/await"
 
-categories: [Log]
+categories: [JavaScript]
 
 date: 2021-03-31
 last_modified_at: 2021-03-31
