@@ -1,80 +1,35 @@
-## My Stack Problems
+[![](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/wild-flame)
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
+# jekyll-simple
 
-### Demo
-* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+## simple
+simple is a theme designed for blogger using static site generator like jekyll, Hexo etc.
 
-#### Features
+Especially for those who writes in both Chinese and English. The font-type setting looks really good when writers use Chinese mixed with English.
 
-* Sitemap and XML Feed
-* Pagination in homepage
-* Posts under category
-* Realtime Search Posts _(title & description)_ by query.
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
-* Projects page & Detail Project page
-* Share on social media
-* Google analytics
-* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
+Supposedly, this could work with Japanese as well but never had a chance to try.
 
-#### Screenshot
+## Story behind this theme
 
-![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+It has been long that using font with Chinese in web was a tedious and time-consuming work. It would be almost impossible to make different OS or devices to look the same.
 
-### Install & Configuration
+iOS 9 has pulished some new fonts in Chinese and I decided to make one theme that looks good on iOS devices, at the same time, making it acceptable on computers using other fonts.
 
-1. Fork this repository
-2. Edit site settings inside file of `_config.yml`
-3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
-4. Edit about yourself inside file of `about.md`
+So mobile goes first, then the macOS.
 
-### How to Use?
+## ^-^
 
-**a. Add new Category**
+You can click the button [Say Thanks!](https://saythanks.io/to/wild-flame) at the first of README if you use/like my project. :D
 
-All categories saved inside path of `category/`, you can see the existed categories.
+Thanks you guys, I got a lot of thanks from people.
 
-**b. Add new Posts**
+- [ryan](https://saythanks.io/note/a9a342ba-e9aa-4707-b169-05b6ae49757d)
+- [Daniel Moore](https://saythanks.io/note/da81706c-8884-4dbc-89b0-eed242ac3b19) and feel free to visit his work [border quiz](http://danielmoore.us/borders-quiz?singapore-planning-areas)
+- [David Laing](https://saythanks.io/note/fb5d24eb-3be8-4f92-842b-c6dd7ce4c239)
+- [Meg](https://saythanks.io/note/6d56e228-e17c-4641-9524-9f9fd6205068)
 
-* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
-* This files can found at the path of `_posts/`.
-* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
+![image](https://user-images.githubusercontent.com/4491950/53502929-0d375880-3aea-11e9-9ce1-13eba2ec4643.png)
 
-```
-2013-09-23-welcome-to-jekyll.md
+- And more
 
-# or
-
-2013-09-23-welcome-to-jekyll.markdown
-```
-
-Inside the file of it,
-
-```
----
-layout: post                          # (require) default post layout
-title: "Your Title"                   # (require) a string title
-date: 2016-04-20 19:51:02 +0700       # (require) a post date
-categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
-tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
-image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
----
-
-# your content post with markdown syntax goes here...
-```
-
-
-#### Installing in your local
-
-```
-bundle install
-jekyll serve
-```
-
-### Contributing
-
-Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+![image](https://user-images.githubusercontent.com/4491950/53502875-e1b46e00-3ae9-11e9-97e4-d70d038a36e9.png)
