@@ -1,3 +1,9 @@
+## push:
+is the git add, commit, and push script
+```
+bash: sh push "commit msg"
+```
+
 ## local:
 is the local server runnig script
 ```
