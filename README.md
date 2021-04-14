@@ -1,12 +1,12 @@
-# local:
+## local:
 is the local server runnig script
 ```
-<pre><code>
-sh local
-</code></pre>
+bash: sh local
 ```
 
+
 ---
+
 
 [![](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/wild-flame)
 
