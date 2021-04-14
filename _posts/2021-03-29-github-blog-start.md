@@ -11,10 +11,26 @@ toc: true
 toc_sticky: true
 ---
 
-```
-{{site.title}}
-```
-
 github blog 첫 posting&test용  
 해당 게시글 제목: {{page.title}}  
 해당 게시글 최종 수정 시각: {{page.last_modified_at}}
+
+```
+printf("hello world!");
+```
+
+`<pre><code>
+printf("hello world!");
+</code></pre>`
+
+`<pre><code>printf("hello world!");</code></pre>`
+
+```
+<pre><code>
+printf("hello world!");
+</code></pre>
+```
+
+<pre><code>
+printf("hello world!");
+</code></pre>
