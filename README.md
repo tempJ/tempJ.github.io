@@ -1,19 +1,3 @@
-## push:
-is the git add, commit, and push script
-```
-bash: sh push "commit msg"
-```
-
-## local:
-is the local server runnig script
-```
-bash: sh local
-```
-
-
----
-
-
 [![](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/wild-flame)
 
 # jekyll-simple
