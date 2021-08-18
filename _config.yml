@@ -19,9 +19,16 @@ about: temphi20@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tempj.github.io" # the base hostname & protocol for your site
+urls:
+  - text: Log
+    url: /category/log
+  - text: JS
+    url: /category/js
 
 twitter_username: 
 github_username: tempJ
+
+category_list: [ log, js ]
 
 # Build settings
 markdown: kramdown
@@ -31,7 +38,7 @@ kramdown:
 # Third-party services
 # just leave someone empty to disable it
 # google_analytics: 
-disqus_shortname: tempj
+# disqus_shortname: tempj
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->

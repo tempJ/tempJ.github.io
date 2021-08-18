@@ -18,7 +18,14 @@
       <nav>
         <ul class="page-link">
           <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
-          <li><a href="{{ "/archive" | prepend: site.baseurl }}">Posts</a></li>
+          <li><a href="{{ "/archive" | prepend: site.baseurl }}">Posts</a>
+            <!-- <li><a href="{{ "/"{{ site.category_list }}" | site.baseurl }}">{{ site.category_list }}</a></li> -->
+            </li>
+          <!-- <li></li> -->
+          <ul>Category
+            <li><a href="{{ "{{ site.urls[0] }}" | prepend: site.baseurl }}">{{ site.urls.text }}</a></li>
+          </ul>
+          
           <li><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
           <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
         </ul>
